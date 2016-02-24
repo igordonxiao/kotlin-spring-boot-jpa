@@ -10,7 +10,6 @@ import org.springframework.boot.orm.jpa.EntityScan
 import org.springframework.context.annotation.Bean
 
 @SpringBootApplication
-@EntityScan(basePackageClasses= arrayOf(User::class))
 open class IgordonxiaoApplication {
     val log = LoggerFactory.getLogger(IgordonxiaoApplication::class.java)
 
